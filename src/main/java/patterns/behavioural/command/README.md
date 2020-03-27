@@ -1,5 +1,5 @@
 # Intent
-**Command** is a patterns.behavioural design pattern that turns a request into a stand-alone object that
+**Command** is a behavioural design pattern that turns a request into a stand-alone object that
 contains all information about the request. This transformation lets you parameterize methods
 with different requests, delay or queue a request’s execution, and support undoable operations.
 
@@ -24,7 +24,7 @@ with different requests, delay or queue a request’s execution, and support und
   * *Command* establishes unidirectional connections between senders and receivers.
   * *Mediator* eliminates direct connections between senders and receivers, forcing them to communicate indirectly via a mediator object.
   * *Observer* lets receivers dynamically subscribe to and unsubscribe from receiving requests.
-* You can use **Command** and **Memento** together when implementing “undo”. In this case, commands are responsible for performing various operations over a target object, while mementos save the state of that object just before a command gets executed.
+* You can use **Command** and **Memento** together when implementing "undo" In this case, commands are responsible for performing various operations over a target object, while mementos save the state of that object just before a command gets executed.
 * Handlers in **Chain of Responsibility** can be implemented as **Commands**. In this case, you can execute a lot of different operations over the same context object, represented by a request. However, there’s another approach, where the request itself is a Command object. In this case, you can execute the same operation in a series of different contexts linked into a chain.
 * **Prototype** can help when you need to save copies of **Commands** into history
 * You can treat **Visitor** as a powerful version of the **Command** pattern. Its objects can execute operations over various objects of different classes.

@@ -1,8 +1,8 @@
 # Intent
-**Flyweight** is a structural design pattern that lets you t more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+**Flyweight** is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
 
 # Applicability
-* Use this pattern only when your program must support a huge number of objects which barely t into available RAM.
+* Use this pattern only when your program must support a huge number of objects which barely fit into available RAM.
 
 # Pros
 * You can save lots of RAM, assuming your program has tons of similar objects.
