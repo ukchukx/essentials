@@ -13,6 +13,7 @@
 
 #### Identity
 Since `x + ~x = -1`, it follows that `-x = ~x + 1`
+
 Example:
 ```
 x  = 0b011011000
@@ -20,7 +21,8 @@ x  = 0b011011000
 -x = 0b100101000
 ```
 
-### Common idioms
+## Common idioms
+
 **Problem**
 
 Set kth bit in a word x to 1
@@ -32,6 +34,7 @@ Shift and OR
 `y = x | (1 << k)`
 
 Example
+
 `k = 7`
 
 |                   |  |
@@ -43,7 +46,7 @@ Example
 
 **Problem**
 
-Set kth bit in a word x to 1
+Set kth bit in a word x to 0
 
 Idea
 
@@ -52,6 +55,7 @@ Shift, complement and AND
 `y = x & ~(1 << k)`
 
 Example
+
 `k = 7`
 
 |                   |  |
@@ -73,6 +77,7 @@ Shift and XOR
 `y = x ^ (1 << k)`
 
 Example
+
 `k = 7`
 
 |                   |  |
@@ -93,6 +98,7 @@ Mask and shift
 `y = x & mask >> shift`
 
 Example
+
 `shift = 7`
 
 |                     |  |
@@ -116,6 +122,7 @@ Invert mask to clear, and OR the shifted value.
 For safety, first `(y << shift) & mask` to clear unwanted values in the higher bits before OR-ing
 
 Example
+
 `shift = 7`
 
 |                             |  |
@@ -134,7 +141,9 @@ Swap x and y without using a temporary
 Solution
 
 `x = x ^ y` - Mask with 1's where bits differ
+
 `y = x ^ y` - Flip bits in `y` that differ from `x`
+
 `x = x ^ y` - Flip bits in `x` that differ from `y`
 
 _NB: This is poor at exploiting instruction-level parallelism_
