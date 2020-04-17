@@ -176,7 +176,7 @@ By extending the _Guitar_ class we can be sure that our existing application won
 
 _If it looks like a duck, quacks like a duck, but needs batteries – you probably have the wrong abstraction._
 
-Next up on our list is Liskov substitution, which is arguably the most complex of the 5 principles. Simply put, **if class _A_ is a subtype of class _B_, then we should be able to replace _B_ with _A_ without disrupting the behavior of our program.**
+Next up on our list is Liskov substitution, which is arguably the most complex of the 5 principles. Simply put, **if class _A_ is a subtype of class _B_, then we should be able to replace _B_ with _A_ without disrupting the behaviour of our program.**
 
 Let's just jump straight to the code to help wrap our heads around this concept:
 
@@ -232,7 +232,7 @@ public class ElectricCar implements Car {
 
 ```
 
-By throwing a car without an engine into the mix, we are inherently changing the behavior of our program. This is **a blatant violation of Liskov substitution and is a bit harder to fix than our previous 2 principles**.
+By throwing a car without an engine into the mix, we are inherently changing the behaviour of our program. This is **a blatant violation of Liskov substitution and is a bit harder to fix than our previous 2 principles**.
 
 One possible solution would be to rework our model into interfaces that take into account the engine-less state of our _Car_.
 

@@ -1,5 +1,5 @@
 # Intent
-**Template Method** is a behavioral design pattern that defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+**Template Method** is a behavioural design pattern that defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
 
 # Applicability
 * Use the Template Method pattern when you want to let clients extend only particular steps of an algorithm, but not the whole algorithm or its structure.
@@ -16,7 +16,7 @@
 
 # Relations with Other Patterns
 * **Factory Method** is a specialization of **Template Method**. At the same time, a **Factory Method** may serve as a step in a large **Template Method**.
-* **Template Method** is based on inheritance: it lets you alter parts of an algorithm by extending those parts in subclasses. **Strategy** is based on composition: you can alter parts of the object’s behavior by supplying it with different strategies that correspond to that behavior. **Template Method** works at the class level, so it’s static. **Strategy** works on the object level, letting you switch behaviors at runtime.
+* **Template Method** is based on inheritance: it lets you alter parts of an algorithm by extending those parts in subclasses. **Strategy** is based on composition: you can alter parts of the object’s behaviour by supplying it with different strategies that correspond to that behaviour. **Template Method** works at the class level, so it’s static. **Strategy** works on the object level, letting you switch behaviours at runtime.
 
 ## Usage
 The Template Method pattern is quite common in Java frameworks. Developers often use it to provide framework users with a simple means of extending standard functionality using inheritance.

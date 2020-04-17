@@ -1,10 +1,10 @@
 # Intent
-**Memento** is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
+**Memento** is a behavioural design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
 
 # Applicability
 * Use this pattern when you want to produce snapshots of the object’s state to be able to restore a previous state of the object.
 * Use this pattern when direct access to the object’s fields/getters/setters violates its encapsulation.
-* Use this pattern when you find yourself creating tons of component subclasses just to reuse some basic behavior in various contexts.
+* Use this pattern when you find yourself creating tons of component subclasses just to reuse some basic behaviour in various contexts.
 
 # Pros
 * You can produce snapshots of the object’s state without violating its encapsulation.

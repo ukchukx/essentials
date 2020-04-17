@@ -1,7 +1,7 @@
 ## Quicksort
 Quicksort is an efficient in-place sorting algorithm, which usually performs about two to three times faster than merge sort and heapsort when implemented well. Quicksort is a comparison sort, meaning that it can sort items of any type for which a _less-than_ relation is defined. In efficient implementations, it is usually not a stable sort.
 
-Quicksort on average takes **O(nlog(n))** comparisons to sort n items. In the worst case, it makes **O(n<sup>2</sup>)** comparisons, though this behavior is very rare.
+Quicksort on average takes **O(nlog(n))** comparisons to sort n items. In the worst case, it makes **O(n<sup>2</sup>)** comparisons, though this behaviour is very rare.
 
 Quicksort is a divide and conquer algorithm. Like all divide and conquer algorithms, it first divides a large array into two smaller sub-arrays and then recursively sort the sub-arrays. Basically, three steps are involved in whole process –
 *   **Pivot selection:** Pick an element, called a pivot, from the array (usually the leftmost or the rightmost element of the partition).

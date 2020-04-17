@@ -1,14 +1,14 @@
 # Intent
-**Visitor** is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+**Visitor** is a behavioural design pattern that lets you separate algorithms from the objects on which they operate.
 
 # Applicability
 * Use this pattern when you need to perform an operation on all elements of a complex object structure (for example, an object tree).
-* Use this pattern to clean up the business logic of auxiliary behaviors.
-* Use this pattern when a behavior makes sense only in some classes of a class hierarchy, but not in others.
+* Use this pattern to clean up the business logic of auxiliary behaviours.
+* Use this pattern when a behaviour makes sense only in some classes of a class hierarchy, but not in others.
 
 # Pros
-* _Single Responsibility Principle_. You can move multiple versions of the same behavior into the same class.
-* _Open/Closed Principle_. You can introduce a new behavior that can work with objects of different classes without changing these classes.
+* _Single Responsibility Principle_. You can move multiple versions of the same behaviour into the same class.
+* _Open/Closed Principle_. You can introduce a new behaviour that can work with objects of different classes without changing these classes.
 * A visitor object can accumulate some useful information while working with various objects. This might be handy when you want to traverse some complex object structure, such as an object tree, and apply the visitor to each object of this structure.
 
 # Cons

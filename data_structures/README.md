@@ -22,7 +22,7 @@ These patterns explain how to assemble objects and classes into larger structure
 ![Flyweight](https://refactoring.guru/images/patterns/cards/flyweight-mini.png) Flyweight
 ![Proxy](https://refactoring.guru/images/patterns/cards/proxy-mini.png) Proxy 
 
-## Behavioral patterns
+## Behavioural patterns
 
 These patterns are concerned with algorithms and the assignment of responsibilities between objects.
 

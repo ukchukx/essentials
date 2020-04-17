@@ -24,7 +24,7 @@ pass it to the next handler in the chain.
   * *Observer* lets receivers dynamically subscribe to and unsubscribe from receiving requests.
 * **Chain of Responsibility** is often used in conjunction with **Composite**. In this case, when a leaf component gets a request, it may pass it through the chain of all of the parent components down to the root of the object tree.
 * Handlers in **Chain of Responsibility** can be implemented as **Commands**. In this case, you can execute a lot of different operations over the same context object, represented by a request. However, there’s another approach, where the request itself is a **Command** object. In this case, you can execute the same operation in a series of different contexts linked into a chain.
-* **Chain of Responsibility** and **Decorator** have very similar class structures. Both patterns rely on recursive composition to pass the execution through a series of objects. However, there are several crucial differences. The **Chain of Responsibility** handlers can execute arbitrary operations independently of each other. They can also stop passing the request further at any point. On the other hand, various **Decorators** can extend the object’s behavior while keeping it consistent with the base interface. In addition, decorators aren’t allowed to break the flow of the request.
+* **Chain of Responsibility** and **Decorator** have very similar class structures. Both patterns rely on recursive composition to pass the execution through a series of objects. However, there are several crucial differences. The **Chain of Responsibility** handlers can execute arbitrary operations independently of each other. They can also stop passing the request further at any point. On the other hand, various **Decorators** can extend the object’s behaviour while keeping it consistent with the base interface. In addition, decorators aren’t allowed to break the flow of the request.
 
 
 ## Usage
@@ -36,5 +36,5 @@ Examples from the Java core libraries:
 * `java.util.logging.Logger#log()`
 
 ## Identification
-The pattern is recognizable by behavioral methods of one group of objects indirectly calling the same methods in other objects, while all the objects follow the common interface.
+The pattern is recognizable by behavioural methods of one group of objects indirectly calling the same methods in other objects, while all the objects follow the common interface.
 

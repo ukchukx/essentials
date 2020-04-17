@@ -40,4 +40,4 @@ Examples from the Java core libraries:
 * All implemantations of `javax.swing.Action`
 
 ## Identification
-The Command pattern is recognizable by behavioral methods in an abstract/interface type (sender) which invokes a method in an implementation of a different abstract/interface type (receiver) which has been encapsulated by the command implementation during its creation. Command classes are usually limited to specific actions.
+The Command pattern is recognizable by behavioural methods in an abstract/interface type (sender) which invokes a method in an implementation of a different abstract/interface type (receiver) which has been encapsulated by the command implementation during its creation. Command classes are usually limited to specific actions.

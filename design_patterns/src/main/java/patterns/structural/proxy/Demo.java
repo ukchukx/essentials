@@ -8,7 +8,7 @@ import patterns.structural.proxy.some_cool_media_library.ThirdPartyYoutubeClass;
  * Caching proxy
  * In this example, the Proxy pattern helps to implement the lazy initialization and caching to an 
  * inefficient 3rd-party Youtube integration library.
- * Proxy is invaluable when you have to add some additional behaviors to a class which code you can’t change.
+ * Proxy is invaluable when you have to add some additional behaviours to a class which code you can’t change.
  */
 public class Demo {
 
@@ -25,7 +25,7 @@ public class Demo {
     private static long test(YoutubeDownloader downloader) {
         long startTime = System.currentTimeMillis();
 
-        // User behavior in our app:
+        // User behaviour in our app:
         downloader.renderPopularVideos();
         downloader.renderVideoPage("catzzzzzzzzz");
         downloader.renderPopularVideos();

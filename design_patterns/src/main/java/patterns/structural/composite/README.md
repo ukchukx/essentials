@@ -20,7 +20,7 @@
 * You can implement shared leaf nodes of the **Composite** tree as **Flyweights** to save some RAM.
 * **Composite** and **Decorator** have similar structure diagrams since both rely on recursive composition to organize an open-ended number of objects.
 A Decorator is like a **Composite** but only has one child component. There’s another signicant difference: Decorator adds additional responsibilities to the wrapped object, while **Composite** just "sums up" its children’s results.
-However, the patterns can also cooperate: you can use Decorator to extend the behavior of a specific object in the **Composite** tree.
+However, the patterns can also cooperate: you can use Decorator to extend the behaviour of a specific object in the **Composite** tree.
 * Designs that make heavy use of **Composite** and **Decorator** can often benefit from using **Prototype**. Applying the pattern lets you clone complex structures instead of re-constructing them from scratch.
 
 ## Usage
@@ -31,4 +31,4 @@ Examples from the Java core libraries:
 * `javax.faces.component.UIComponent#getChildren()` (practically all over JSF UI components)
 
 ## Identification
-The composite is easy to recognize by behavioral methods taking an instance of the same abstract/interface type into a tree structure.
+The composite is easy to recognize by behavioural methods taking an instance of the same abstract/interface type into a tree structure.
