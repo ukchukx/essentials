@@ -1,14 +1,12 @@
 # SOLID
 
 **1\. Introduction**[](#intro)
-
 ------------------------------
 In this tutorial, we'll be discussing **the SOLID principles of Object-Oriented Design.**
 
 First, we'll start by **exploring the reasons they came about and why we should consider them** when designing software. Then, we'll outline each principle alongside some example code to emphasize the point.
 
 **2\. The Reason for SOLID Principles**[](#why)
-
 -----------------------------------------------
 The SOLID principles were first conceptualized by Robert C. Martin in his 2000 paper, _[Design Principles and Design Patterns](https://fi.ort.edu.uy/innovaportal/file/2032/1/design_principles.pdf)._ These concepts were later built upon by Michael Feathers, who introduced us to the SOLID acronym. And in the last 20 years, these 5 principles have revolutionized the world of object-oriented programming, changing the way that we write software.
 
